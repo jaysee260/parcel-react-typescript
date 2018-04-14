@@ -1,0 +1,24 @@
+$background: purple;
+$text: #f3f3f3;
+$defaultFont: Arial, Helvetica, sans-serif;
+$large: 20px;
+
+body {
+  background-color: $background;
+  color: $text;
+  font-weight: 25px;
+  font-family: $defaultFont;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  p {
+    font-size: $large;
+    
+    a {
+      color: $text;
+    }
+  }
+}
